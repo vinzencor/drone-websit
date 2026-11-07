@@ -14,6 +14,8 @@ export const PROP_RADIUS = 0.68;
 export const DRONE_SPAN = 2 * (ARM_TIP + PROP_RADIUS);
 /** Distance from the drone's origin down to the bottom of the landing skids. */
 export const LANDING_GEAR_DEPTH = 0.942;
+/** Height of the propeller disc above the drone's origin. */
+export const PROP_PLANE_HEIGHT = 0.51;
 
 const ARM_COUNT = 6;
 const ARM_START = 0.42;
